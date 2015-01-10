@@ -5,7 +5,7 @@ import java.util.List;
 	private Eksagwgh_bit output;
 
 	public Kodikos_dentroy kodikos_dentroy;
-	// O kodikos dentroy borei na allaxei afou kathe simvolo kodikopoiithei,arkei i kadikopoisi kai i apokodikopoiisi na exoume ton idio kodiko dentroy tin idia stigmi;
+	// O kodikos dentroy borei na allaxei afou kathe simvolo kodikopoiithei,arkei i kadikopoisi kai i apokodikopoiisi na exoun ton idio kodiko dentroy tin idia stigmi;
 
 	public Kodikopoiisi(Eksagwgh_bit out) {
 			if (out == null)
