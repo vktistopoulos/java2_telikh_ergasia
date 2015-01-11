@@ -42,5 +42,17 @@ public final class Aposympiesi {
 		}
 		return new Kanonikos_kodikas(lengths);
 	}
+	
 
+	static void aposympiesi(Kodikos_dentroy codetree, Eisagwgh_bit in, OutputStream out) throws IOException {
+		Apokodikopoiisi ap = new Apokodikopoiisi(in);
+		ap.kodikos_dentroy = codetree ;
+		while (true) {
+			int symbol = ap.read();
+			if (symbol == 256)
+				break;
+		out.write(symbol);
+		}
+	}
+}
 
