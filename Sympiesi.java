@@ -70,3 +70,15 @@ public final class Sympiesi {
 				out.write((e >>> j) & 1);
 		}
 	}
+	static void compress(Kodikos_dentroy code, InputStream in, Eksagwgh_bit out) throws IOException {
+		Kodikopoiisi kod = new Kodikopoiisi(out);
+		kod.kodikos_dentroy = code;
+		while (true) {
+			int b = in.read();
+			if (b == -1)
+			break;
+			kod.write(b);
+		}
+		kod.write(256);
+	}
+}
